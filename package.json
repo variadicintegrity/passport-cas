@@ -1,28 +1,33 @@
 {
-  "name": "passport-cas",
-  "version": "0.1.1",
+  "name": "passport-cas-2",
+  "version": "0.2.0",
   "description": "Cas authentication strategies for Passport.",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:sadne/passport-cas.git"
+    "url": "git@github.com:variadicintegrity/passport-cas.git"
   },
   "keywords": [
     "passport",
     "auth",
     "cas"
   ],
-  "author": "不会飞的羊",
+  "author": "variadicintegrity",
+  "contributors": [
+    "不会飞的羊"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sadne/passport-cas/issues"
+    "url": "https://github.com/variadicintegrity/passport-cas/issues"
   },
-  "homepage": "https://github.com/sadne/passport-cas",
+  "homepage": "https://github.com/variadicintegrity/passport-cas",
   "dependencies": {
-    "node-uuid": "1.4.1",
-    "underscore": "1.6.0",
-    "xml2js" : "0.4.4"
-
+    "underscore": "^1.10.2",
+    "uuid": "^8.1.0",
+    "xml2js": "^0.4.23"
+  },
+  "peerDependencies": {
+    "passport": "^0.4.1"
   }
 }
